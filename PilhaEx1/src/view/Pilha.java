@@ -27,9 +27,9 @@ public class Pilha {
     		System.out.println("--------Simulacao B-----------");
     // Algoritmo b)
     PilhaController p2 = new PilhaController ();
-    for (int i = 100; i < 115; i++) {
-        if (p2.isEmpty()) {
-            p2.push(i + 100);
+    	for (int i = 100; i < 115; i++) {
+    		if (p2.isEmpty()) {
+    			p2.push(i + 100);
         } else {
             if (p2.size() <= 4) {
                 p2.push(i + 50);
@@ -38,8 +38,7 @@ public class Pilha {
             }
         }
         p2.top();
-    }
-
+    	}
     	p2.size();	
 	} 
 }
